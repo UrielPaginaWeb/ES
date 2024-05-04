@@ -1,0 +1,168 @@
+
+<html>
+    <head>
+        <title>Registro de recolección</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="logoES.png">
+        <link rel="stylesheet" type="text/css" href="usuario.css">
+        <link rel="stylesheet" type="text/css" href="recolector.css">
+        <link rel="stylesheet" type="text/css" href="admin.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Codec+Pro&display=swap">
+        
+    </head>
+    <center>    
+    <body>
+        <div class="divmenu">
+            <div id="side-panel" class="contenido">
+                <a href="miperfiladmin.html">Mi perfil</a><br>
+                <a href="admin.html">Panel</a><br>
+                <a href="registrarcliente.html">Registrar cliente</a><br>
+                <a href="login.html">Cerrar sesión</a>
+            </div>  
+                <div id="side-panel-trigger" class="side-panel-trigger">
+                <a href="#" onclick="toggleSidePanel()">
+                    <img src="menu.png" width="60px">
+                </a>
+            </div>
+                <script>
+                    function toggleSidePanel() {
+                    var sidePanel = document.getElementById('side-panel');
+                    sidePanel.style.display = (sidePanel.style.display === 'block') ? 'none' : 'block';
+                }
+                </script>
+        </div>
+        <div class="contenedoragregardesecho">
+            <br>
+            <div class="titulo">
+                <label for="crear">Registro de recolección</label>
+            </div>
+            <div class="contenedorregrecoleccion"  >
+                <br><br><br>
+                <div class="contendortabla">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="">Clave</th>
+                                <th class="">Fecha <br>de <br> registro</th>
+                                <th class="">Clave <br>Usuario</th>
+                                <th class="">Clave</th>
+                                <th class="">Peso <br>total</th>
+                                <th class="">Fecha <br>programada</th>
+                                <th class="">Número <br>de <br>clientes</th>
+                                <th class="">Estatus</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=""><a href="verdesecho.html" class="linkstd">0000000000</a></td>
+                                <td class="">ejemplo</td>
+                                <td class="">ejemplo</td>
+                                <td class="">ejemplo</td>
+                                <td class="">ejemplo</td>
+                                <td class="">ejemplo</td>
+                                <td class="">ejemplo</td>
+                                <td class="">ejemplo</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div class="contenedorboton">
+                    <button class="botonprogramar" onclick="window.location.href='programarenvioadmin.html'">Programar envío</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+<style>
+    table {
+            border: 3px solid #000000;
+            width: 100%;
+            height: 85%;
+        }
+        th{
+            border: 3px solid #000000;
+            max-width: 100px;
+            text-align: center;
+            height: 10px;
+            font-size: 14px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis; /* Mostrar puntos suspensivos si el contenido se recorta */
+        } 
+        
+        td {
+            border: 3px solid #000000;
+            text-align: center;
+            max-width: 100px;
+            height: 90px;
+            font-size: 14px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis; /* Mostrar puntos suspensivos si el contenido se recorta */
+        }
+</style>

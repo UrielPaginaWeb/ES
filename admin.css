@@ -1,0 +1,135 @@
+.contenedoradmin{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/*MENU*/
+.divmenu{
+    width: 30%;
+    height: 1%;
+    right: 10%;
+    top: 12%;
+    position: absolute;
+    background-color: #ffffff;
+}
+.contenido{
+    font-family: 'Raleway';
+    font-size: 15px;
+}
+#side-panel {
+    display: none;
+    width: 70%;
+    height: 3200%;
+    background-color: white;
+    color: black;
+    float: right;
+    border: 1px solid #008E5A;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Codec Pro', sans-serif; 
+    font-size: 100%;
+  }
+
+  #side-panel a {
+    padding: 2%;
+    text-decoration: none;
+    color: black;
+    display: block;
+  }
+
+  #side-panel-trigger {
+    float: right;
+    top: 2%;
+    left: 2%;
+    cursor: pointer;
+    z-index: 2;
+  }
+.tituloadmin{
+    width: 60%;
+    height: 8%;
+    background-color: #00BF63;
+    border-radius: 10px;
+    font-family: 'Codec Pro', sans-serif; 
+    font-size: 190%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.divdatos{
+    width: 30%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    text-align: justify;
+    font-family: 'Codec Pro', sans-serif; 
+    font-size: 150%;
+}
+.inputdatos{
+    width: 70%;
+    height: 12%;
+    padding: 10px;
+    font-family: 'Codec Pro', sans-serif; 
+    font-size: 90%;
+    border: none;
+    border-radius: 20px;
+    background-color: #ededed;
+}
+.labelsdatos{
+    text-align: justify;
+    font-family: 'Codec Pro', sans-serif; 
+    font-size: 150%;
+}
+.btncalcularcosto{
+    width: 70%;
+    height: 12%;
+    background-color: #F3F3F3;
+    font-family: 'Codec Pro', sans-serif; 
+    font-size: 90%;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    margin-left : 10%;
+}
+.btncalcularfinalizar{
+    width: 70%;
+    height: 12%;
+    background-color: #00BF63;
+    color: white;
+    font-family: 'Codec Pro', sans-serif; 
+    font-weight: bold;
+    font-size: 90%;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    margin-left : 10%;
+}
+
+.contenedorregrecoleccion{
+    width: 95%;
+    height: 90%;
+    background-color: #ffffff;
+}
+.contenedorboton{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+.botonprogramar{
+    width: 20%;
+    height: 80%;
+    background-color: #00BF63;
+    color: white;
+    font-family: 'Codec Pro', sans-serif; 
+    font-weight: bold;
+    font-size: 95%;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}

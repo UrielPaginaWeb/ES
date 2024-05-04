@@ -1,0 +1,71 @@
+
+<html>
+    <head>
+        <title>Registrar Cliente</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="logoES.png">
+        <link rel="stylesheet" type="text/css" href="admin.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Codec+Pro&display=swap">
+        
+    </head>
+    <center>    
+    <body>
+        <div class="divmenu">
+            <div id="side-panel" class="contenido" >
+                <a href="miperfiladmin.html">Mi perfil</a><br>
+                <a href="admin.html">Panel</a><br>
+                <a href="registrorecoleccion.html">Registro de recolección</a><br>
+                <a href="login.html">Cerrar sesión</a>
+            </div>  
+                <div id="side-panel-trigger" class="side-panel-trigger">
+                <a href="#" onclick="toggleSidePanel()">
+                    <img src="menu.png" width="60px">
+                </a>
+            </div>
+                <script>
+                    function toggleSidePanel() {
+                    var sidePanel = document.getElementById('side-panel');
+                    sidePanel.style.display = (sidePanel.style.display === 'block') ? 'none' : 'block';
+                }
+                </script>
+        </div>
+        <div class="contenedormiperfilrecolector">
+            <br>
+            <div class="tituloadmin">
+                <label for="crear">Registrar cliente</label>
+            </div>
+            <div class="contenedoradmin">
+                <div class="divdatos">
+                    <label for="">*Clave recolector:</label><br>
+                    <input class="inputdatos" type="text" ><br><br><br>
+                    <label for="">*Fecha :</label><br>
+                    <input class="inputdatos" type="text" ><br><br><br>
+                    <label for="">*Fecha programada:</label><br>
+                    <input class="inputdatos" type="text"><br><br><br>
+                </div>
+                <div class="divdatos">
+                    <label for="">*Clave desecho:</label><br>
+                    <input class="inputdatos" type="text" ><br><br><br>
+                    <label for="">*Kms distancia:</label><br>
+                    <input class="inputdatos" type="text" ><br><br><br>
+                    <label for="">*Peso:</label><br>
+                    <input class="inputdatos" type="text"><br><br><br>
+                </div>
+                <div class="divdatos">
+                    <label for="">*Clave cliente:</label><br>
+                    <input class="inputdatos" type="text" ><br><br><br>
+                    <label for="">Costo:</label><br>
+                    <input class="inputdatos" type="text" ><br><br><br>
+                    <br>
+                    <button class="btncalcularcosto">Calcular costo</button>
+                    <br><br><br><br>
+                    <button class="btncalcularfinalizar" onclick="window.location.href='clienteregistradoadmin.html'">Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+        
